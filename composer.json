@@ -1,0 +1,26 @@
+{
+    "name":         "nysander/amukana-plvalidator-bundle",
+    "description":  "This bundle provides an validators specific for Polish Users (PESEL, NIP, REGON, Identity Card, Iban",
+    "keywords":     ["regon", "pesel", "iban", "nip", "validator", "identity card", "dowód osobisty"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Paweł Madej",
+            "email":    "pawel.madej@amukana.pl"
+        }
+    ],
+    "require":      {
+        "symfony/symfony": "~2.4"
+    },
+    "autoload":     {
+        "psr-0": { "Amukana\\PLValidatorBundle": "" }
+    },
+    "target-dir": "Amukana/PLValidatorBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
