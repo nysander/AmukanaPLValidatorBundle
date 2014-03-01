@@ -1,0 +1,21 @@
+services:
+    validator.nip:
+        class: Amukana\PLValidatorBundle\Validator\Constraints\NipValidator
+        tags:
+            - { name: validator.constraint_validator, alias: validator.nip }
+    validator.identitycard:
+        class: Amukana\PLValidatorBundle\Validator\Constraints\IdentityCardValidator
+        tags:
+            - { name: validator.constraint_validator, alias: validator.identitycard }
+    validator.regon:
+        class: Amukana\PLValidatorBundle\Validator\Constraints\RegonValidator
+        tags:
+            - { name: validator.constraint_validator, alias: validator.regon }
+    validator.pesel:
+        class: Amukana\PLValidatorBundle\Validator\Constraints\PeselValidator
+        tags:
+            - { name: validator.constraint_validator, alias: validator.pesel }
+    validator.iban:
+        class: Amukana\PLValidatorBundle\Validator\Constraints\IbanValidator
+        tags:
+            - { name: validator.constraint_validator, alias: validator.iban }
