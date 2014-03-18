@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraint;
  */
 class Pesel extends Constraint
 {
-    public $message = 'This value is not a valid PESEL number';
+    public $message = 'Podany numer PESEL jest nieprawidłowy';
 
     public function validatedBy()
     {

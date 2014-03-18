@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraint;
  */
 class Iban extends Constraint
 {
-    public $message = 'This value is not a valid IBAN number';
+    public $message = 'To nie jest poprawny numer rachunku IBAN';
 
     public function validatedBy()
     {

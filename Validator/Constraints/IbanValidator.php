@@ -1,6 +1,5 @@
 <?php
 
-
 /*
  * This file is part of the AmukanaPLValidatorBundle.
  *
@@ -44,7 +43,7 @@ class IbanValidator extends ConstraintValidator
                                  'ES' => 24, 'SE' => 24, 'CH' => 21, 'TN' => 24,
                                  'TR' => 26, 'AE' => 23, 'GB' => 22);
     }
-    
+
     /**
      * {@inheritDoc}
      */

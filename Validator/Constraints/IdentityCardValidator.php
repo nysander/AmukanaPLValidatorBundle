@@ -36,7 +36,7 @@ class IdentityCardValidator extends ConstraintValidator
                                  'U' => 30, 'V' => 31, 'W' => 32, 'X' => 33,
                                  'Y' => 34, 'Z' => 35);
     }
-    
+
     /**
      * {@inheritDoc}
      */

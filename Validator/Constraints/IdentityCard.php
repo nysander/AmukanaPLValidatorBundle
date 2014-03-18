@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraint;
  */
 class IdentityCard extends Constraint
 {
-    public $message = 'This value "%string%" is not a valid ID Card number';
+    public $message = 'Podany numer i seria dowodu osobistego są nieprawidłowe';
 
     public function validatedBy()
     {

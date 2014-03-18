@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraint;
  */
 class Nip extends Constraint
 {
-    public $message = 'This value %string% is not a valid NIP number';
+    public $message = 'Podany numer NIP jest nieprawidłowy';
 
     public function validatedBy()
     {

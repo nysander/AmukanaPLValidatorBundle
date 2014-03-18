@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraint;
  */
 class Regon extends Constraint
 {
-    public $message = 'This value "%string%" is not a valid REGON number';
+    public $message = 'Podany numer REGON jest nieprawidłowy';
 
     public function validatedBy()
     {
