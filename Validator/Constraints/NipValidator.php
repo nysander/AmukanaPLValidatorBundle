@@ -52,9 +52,7 @@ class NipValidator extends ConstraintValidator
                 $constraint->message,
                 array('%string%' => $value)
             );
-            //$this->context->addViolationAt($subPath, $message, $params)
-$this->context->addViolation( 'validation.nip',array('%string%' => $value));
-//addViolationAtSubPath('endDate', 'validation.invalid.enddate', array(), null);
+
             return;
         }
 
